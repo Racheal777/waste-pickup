@@ -20,7 +20,7 @@ export default function Signup() {
             </p>
           </div>
 
-          <form action="" className="w-full pt-4">
+          <form action="" className="w-full pt-2">
             <div className="grid grid-cols-2 gap-4">
               <div className="py-3">
                 <label htmlFor="firstname" className="pb-4">
@@ -84,6 +84,19 @@ export default function Signup() {
                 name="password"
                 id=""
                 placeholder="Enter your password"
+                className="rounded-md border border-slate-400 p-2 w-full"
+              />
+            </div>
+
+            <div className="py-3">
+              <label htmlFor="Password" className="pb-4">
+                Confirm Password*
+              </label>
+              <input
+                type="password"
+                name="password"
+                id=""
+                placeholder="Confirm your password"
                 className="rounded-md border border-slate-400 p-2 w-full"
               />
             </div>
